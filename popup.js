@@ -1,7 +1,8 @@
-var elementsWithWords = $('*:contains("i")');
+var elementsWithWords = $('*:contains("question")');
+
 $.each(elementsWithWords, function( index, value ) {
 	
-	value = value.innerHTML.replace("i", "butt");
+	value = value.innerHTML.replace("question", "butt");
 	
 	elementsWithWords.html(value);
 
