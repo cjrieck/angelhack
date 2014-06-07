@@ -1,9 +1,8 @@
+var elementsWithWords = $('*:contains("i")');
+$.each(elementsWithWords, function( index, value ) {
+	
+	value = value.innerHTML.replace("i", "butt");
+	
+	elementsWithWords.html(value);
 
-// var wordsToReplace = $('div:contains("I")');
-// $.each(wordsToReplace, function(index, value){
-// 	console.log("Hi");
-// 	value.replaceAll("<h1>You</h1>");
-// });
-
-$("body").append('<div>ahilfbelshvbaelihvb</div>');
-// console.log("HIIII");
+});
