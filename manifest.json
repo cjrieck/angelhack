@@ -3,7 +3,7 @@
 
   "name": "BAHBARAH Serenity",
   "description": "Fighting in a future time.",
-  "version": "1.0",
+  "version": "100.0",
 
   "browser_action": {
     "default_icon": "icon.png",
