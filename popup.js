@@ -1,12 +1,12 @@
-// var wordsToReplace = $('div:contains("I")');
-// $.each(wordsToReplace, function(index, value){
-// 	console.log("Hi");
-// 	value.replaceAll("<h1>You</h1>");
-// });
 
+var elementsWithWords = $('*:contains("question")');
 
-$('body').html( $('body').html().replace(/ring/gi,'BAHBARAH') );
-//$("body").append('<div>ahilfbelshvbaelihvb</div>');
+$.each(elementsWithWords, function( index, value ) {
+	
+	value = value.innerHTML.replace("question", "butt");
+	
+	elementsWithWords.html(value);
+
+});
 var audio = new Audio('baasheep1.wav');
 audio.play();
-console.log("HIIII");
